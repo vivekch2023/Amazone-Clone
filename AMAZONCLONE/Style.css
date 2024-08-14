@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+
+}
+.navbaar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.border{
+      border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 25px;
+
+}
+.add-sec{
+font-size: 1rem;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    background-color: rgb(255, 0, 128);
+    width: 620px;
+    height:40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+     border-top-left-radius: 4px; 
+     border-bottom-left-radius: 4px;
+     border: none;
+}
+
+
+.search-input{
+
+width:100%;
+font-size: 1rem;
+border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    color:#0F1111;
+
+}
+
+/* box 4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* box 6 */
+
+
+
+.nav-card span{
+    font-size: 35px;
+}
+
+.nav-card {
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+
+
+
+/*  second part start */
+
+
+
+.part{
+    background: #2c2b2a;
+}
+.innerpart{
+    background: #2c2b2a;
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    align-items:center ;
+    color: white;
+    width: 50%;
+    
+   
+}
+
+
+.part a{
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+
+.partsec{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.innerpart span{
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 7px;
+}
+
+
+.op{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/* For the third Hero  section 
+ first-1 section */
+
+.hero{
+    background-image: url("1.JPG");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+.hero_msg{
+    color:black;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    background-color: white;
+    display: flex;
+    width: 96.7%;
+    margin-bottom: 15px;
+    height: 40px;
+ 
+
+ 
+}
+.hero_msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* Shop section css start here*/
+
+.contener{
+    display: flex;
+    justify-content: space-evenly;
+    background: #393da9;
+    flex-wrap: wrap;
+  
+
+
+}
+
+.shop{
+    width: 23%;
+   /* border: 2px solid black; */
+    height: 300px;
+    background: #efecec;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+   
+   
+}
+
+.box1_img{
+    height: 250px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box_content{
+margin-left: 1rem;
+margin-right: 1rem;
+
+
+}
+
+
+/* footer code is started in css*/
+
+.footer{
+    height: 400px;
+    background:white;
+    margin-top: 10px;
+}
+
+.panal1{
+    height: 150px;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.panal1-conntent button{
+    background: rgb(231, 197, 44);
+    border: none;
+    width: 105%;
+    height: 25px;
+    border-radius: 4px;
+    
+ 
+}
+
+.panal1-conntent h5{
+    margin: 5px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.panal1-conntent h6{
+    margin-top: 3px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.panal2{
+    background-color:#3e3d3f;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.panal3{
+    background-color: #232f3e;
+    height: 500px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+.panal3 a{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: .88rem;
+}
+.box31{
+    margin-top: 40px;
+}
